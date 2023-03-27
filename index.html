@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./global.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar w-full flex text-white justify-between px-32 py-8 fixed z-30"
+    >
+      <img src="./assets/logo.png" width="100" alt="" />
+      <div class="nav-link flex gap-20 text-md items-center uppercase">
+        <a href="#" class="active">Home</a>
+        <a href="#">menu</a>
+        <a href="#">gallery</a>
+        <a href="#">contacts</a>
+      </div>
+    </nav>
+    <div
+      class="bg-[url('./assets/banner.jpg')] h-[93vh] relative z-10 bg-cover justify-center items-center flex flex-col gap-12 text-white px-80 after:content-[''] after:bg-[#00000060] after:h-[95vh] after:w-full after:absolute after:-z-10"
+    >
+      <h3 class="text-white text-6xl uppercase font-bold text-center">
+        collect your best food
+      </h3>
+      <p class="text-center">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
+        suscipit, quos fuga sint eius ea itaque porro quia aliquam vero iure
+        incidunt explicabo. Ducimus nisi corrupti quis. Autem, perferendis iste?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        corporis totam voluptatem id explicabo doloremque minima. Totam debitis
+        pariatur, alias ipsam nisi sint nulla id culpa exercitationem natus quod
+        placeat?
+      </p>
+      <button
+        class="py-4 px-14 font-medium bg-[#AC8849] capitalize text-white rounded-md"
+      >
+        Learn more
+      </button>
+    </div>
+    <div
+      class="mid-bar w-full text-center py-8 bg-black sticky top-0 z-20 flex justify-center items-center"
+    >
+      <h2 class="text-[#ac8849] font-bold capitalize text-xl">get 50% offer</h2>
+    </div>
+    <div class="discover grid grid-cols-2 px-52 py-32 gap-32">
+      <div class="content gap-12 flex flex-col flex-grow-1 justify-center">
+        <h2 class="text-5xl font-bold">Discover</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint
+          tenetur totam necessitatibus alias repudiandae animi nemo ipsum
+          distinctio pariatur officiis exercitationem praesentium atque laborum
+          aut, voluptatem, repellat perspiciatis minus? Lorem, ipsum dolor sit
+          amet consectetur adipisicing elit. Magnam, esse. Assumenda rerum, eius
+          doloribus sequi veritatis quidem hic odit, non sapiente odio voluptas
+          aspernatur, mollitia animi autem. Asperiores, magnam temporibus.
+        </p>
+
+        <div class="profile flex gap-8 items-center">
+          <img src="./assets/avatar.jpg" class="w-16 rounded-full" alt="" />
+          <div class="header">
+            <h2 class="uppercase font-bold text-lg">Jhon Doe</h2>
+            <h6 class="text-[#ac8849] font-medium">CEO Go Food</h6>
+          </div>
+        </div>
+      </div>
+      <div
+        class="image h-[500px] bg-[url('./assets/image-c.jpg')] m-auto rounded-lg overflow-hidden w-full bg-cover shadow-2xl"
+      ></div>
+    </div>
+    <div class="w-full min-h-80 bg-zinc-900 px-52 py-12">
+      <img src="./assets/logo.png" width="100" alt="" />
+      <div class="content flex mt-7 w-full justify-between">
+        <div class="flex flex-col gap-5 text-white">
+          <h2 class="text-lg uppercase font-semibold tracking-widest">Pages</h2>
+          <a href="" class="capitalize">Home</a>
+          <a href="" class="capitalize">About Us</a>
+          <a href="" class="capitalize">gallery</a>
+          <a href="" class="capitalize">Menu</a>
+        </div>
+        <div class="flex flex-col gap-5 text-white">
+          <h2 class="text-lg uppercase font-semibold tracking-widest">
+            Language
+          </h2>
+          <a href="" class="capitalize">english</a>
+          <a href="" class="capitalize">bahasa</a>
+          <a href="" class="capitalize">tagalog</a>
+          <a href="" class="capitalize">korea</a>
+        </div>
+        <div class="flex flex-col gap-5 text-white">
+          <h2 class="text-lg uppercase font-semibold tracking-widest">Info</h2>
+          <a href="" class="capitalize">Privacy Policy</a>
+          <a href="" class="capitalize">FaQ</a>
+          <a href="" class="capitalize">contact us</a>
+        </div>
+        <div class="flex flex-col gap-5 text-white">
+          <h2 class="text-lg uppercase font-semibold tracking-widest">
+            stay in touch
+          </h2>
+          <a href="" class="capitalize flex gap-5"
+            ><img src="./assets/twitter.png" width="25" />Twitter</a
+          >
+          <a href="" class="capitalize flex gap-5"
+            ><img src="./assets/instagram.png" width="25" />instagram</a
+          >
+          <a href="" class="capitalize flex gap-5"
+            ><img src="./assets/tik-tok.png" width="25" />TikTok</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="bg-black py-6 capitalize text-center">
+      <h2 class="text-white text-lg tracking-wide">Copyright Pudy 2023</h2>
+    </footer>
+  </body>
+</html>
